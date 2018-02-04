@@ -1,0 +1,33 @@
+.searchInput{
+    height: 38px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-color: #313f9f;
+}
+.adbg{
+    background-color:#303F9F;
+    color: #fff;
+    padding: 6px 18px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.searchResult{
+    position: absolute;
+    background-color: #fff;
+    width: 94%;
+    z-index: 9;
+}
+.searchResult ul{
+    padding: 0px;
+    list-style-type: none;
+}
+.searchResult ul li a{
+    padding: 5px;
+    font-size: 14px;
+    color: #232222;
+}
+
+.searchResult ul li a:hover{
+    color: #F26522;   
+}

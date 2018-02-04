@@ -1,0 +1,45 @@
+<header class="header">
+  <div class="container logo-box">
+
+    <div class="row">
+      <div class="col-md-3 col-sm-12">
+           <img src="assets/search.png"> 
+          <span class="logoName">
+            <span>The</span><br>
+            SchooFinder</span>
+      </div>
+      <div class="col-md-6 " > <app-searchbox *ngIf="router.url != '/Home'"></app-searchbox></div>
+      <!-- <div class="col-md-6 currentPlace" *ngIf="router.url == '/Home'">
+       
+         
+          <mat-form-field class="pull-right">
+            <mat-select placeholder="Favorite food">
+              <mat-option *ngFor="let food of foods" [value]="food.value">
+                {{ food.viewValue }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        <span class="pull-right">  Current City </span> 
+      </div>-->
+
+      <div class="col-md-3 col-sm-12">
+         
+
+          <button class="btn pull-right signin"  (click)="loginDialog()"><i class="fa fa-sign-in"></i> Sign In</button>
+          <!-- <button class="btn pull-right signup" (click)="loginDialog()"><i class="fa fa-user-plus"></i> Sign up</button> -->
+      </div>
+     
+    
+    </div>
+  </div>
+  <!-- <div class="container-fluid">
+    <div class="row menubar">
+      <div class="container">
+        <div class="row">
+          <button class="btn pull-right signin">Sign In</button>
+          <button class="btn pull-right signup">Sign up</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+</header>

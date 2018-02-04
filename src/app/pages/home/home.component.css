@@ -1,0 +1,121 @@
+.homebg{
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+.homebg{
+      background-color: #303F9F;
+ }
+
+.text-center{
+    text-align: center;
+}
+.wtext{
+    color: #dab315;
+    font-size: 40px;
+}
+.schname{
+    color: #0c7b20;
+    font-size: 30px;
+}
+
+.adsrc{
+    color: #dab315;
+    text-decoration: underline;
+    padding: 4px;
+}
+
+.weltext h2{
+    margin-bottom: 5px;
+}
+
+.weltext h3{
+    margin-top: 10px;
+}
+.weltext p{
+    color: #b0b3bb;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.iboxbody h3{
+    text-align: center;
+}
+
+.ibox{
+    padding: 10px; 
+}
+.infoArea{
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+.iboxbody{
+    
+    padding:0px 10px 10px 10px; 
+     /* box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12); */
+}
+.iboxbody h3{
+   
+     padding: 10px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+.iboxbody ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+ 
+
+.iboxbody ul li a{
+    position: relative;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #3f51b5;
+    color: #3f51b5;
+    margin-bottom: 10px;
+
+}
+.tsfbox ul li a{
+    border-color: #0a9626;
+    color: #0a9626;
+ }
+
+
+.iboxbody, .iboxbody ul li  .ibxicon, .iboxbody ul li  .ibxtxt{
+    position: relative;
+    float: left;
+}
+.iboxbody ul li  .ibxicon{
+    width: 10%;
+    text-align: center;
+    padding: 5px;
+}
+.iboxbody ul li  .ibxtxt{
+    width: 90%;
+}
+
+.cibox-body{
+    height: 200px;
+    border: 1px solid;
+    width: 200px;
+    border-radius: 50%;
+    padding: 28px;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    color: #fff;
+}
+
+.cibox_yellow{
+    background-color: #FF9800;
+}
+
+.cibox_green{
+    background-color:#4CAF50;
+}
+
+.cibox_blue{
+    background-color: #2979FF;
+}

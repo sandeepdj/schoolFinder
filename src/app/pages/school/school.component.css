@@ -1,0 +1,82 @@
+agm-map {
+  height: 300px;
+}
+
+.bredBox,
+.cinfob,
+.infoRow {
+  position: relative;
+  z-index: 3;
+}
+
+.bredBox .breadcrumb {
+  margin-bottom: 2px;
+  background-color: transparent;
+}
+
+.cinfob {
+  background-color: transparent;
+}
+
+.schoolWrap {
+  height: 200px;
+}
+
+.schbg {
+  background-image: url(./../../../assets/scbg.jpg), linear-gradient(to right, rgba(49, 63, 59, 0.7), rgba(49, 63, 59, 0.7));
+  /* background: url('./../../../assets/scbg.jpg')  center center no-repeat , rgba(red, green, blue, 0.8); */
+  background-size: cover;
+  filter: blur(4x);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  position: absolute;
+  top: -8px;
+  bottom: -8px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+  height: 400px;
+}
+
+.schbg::before {
+  background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .3));
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.infoRow {
+  color: #fff;
+}
+
+.mapCard {
+  padding: 0px;
+}
+
+.mapInfo {
+  text-align: center;
+  background-color: #313f9f;
+  color: #fff;
+  padding: 14px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.schoolWrap1 {
+  position: relative;
+  z-index: 3;
+ }
+.clgimg{
+    padding-top: 20px;
+}

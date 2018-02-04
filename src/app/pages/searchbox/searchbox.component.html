@@ -1,0 +1,27 @@
+<div class="input-group">
+  <input type="text" class="form-control searchInput"
+   placeholder="Enter the school name, state, city or zip code"
+   (keydown)="liveSearch($event)"
+   (keyup)="liveSearch($event)"
+   >
+  <span class="input-group-addon adbg"><i class="glyphicon glyphicon-search"></i></span>
+</div>
+ <div class="searchResult" *ngIf="schoolList">
+    <ul>
+     <li  *ngFor="let school of schoolList">
+        <a href routerLink="/Schools/{{school.refid}}">
+          <span class="icon"><i class="fa fa-graduation-cap"></i></span>
+          <span class="itext">{{school.sname}}</span>
+        </a>
+     </li>
+
+     <li  *ngFor="let dilist of distsList">
+      <a href>
+        <span class="icon"><i class="fa fa-map-marker"></i></span>
+        <span class="itext">{{'schools in'}} </span> {{dilist.name}} </a>
+   </li>
+
+     
+   </ul>
+</div>
+ 
