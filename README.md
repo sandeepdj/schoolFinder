@@ -1,0 +1,2 @@
+# schoolFinder
+School Finder
